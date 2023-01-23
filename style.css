@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("Poppins Font/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url("Poppins Font/Poppins-Medium.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins-Medium;
+}
+
+.site-img {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+
+.phone {
+  width: 380px;
+  margin-right: 200px;
+  float: right;
+}
+
+.nav {
+  width: 90%;
+  margin-left: 3%;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul h1 {
+  font-family: Poppins-Bold;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.app {
+  color: rgba(255, 165, 0, 255);
+}
+
+.lab {
+  color: rgba(0, 0, 0, 255);
+}
+
+ul a {
+  text-decoration: none;
+  color: rgba(65, 3, 83, 255);
+}
+
+.btn {
+  font-family: Poppins-Bold;
+  border: 1px solid rgba(0, 0, 255, 255);
+  border-radius: 20px;
+  padding: 12px 22px;
+  background-color: rgba(0, 0, 255, 255);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.left-text {
+  width: 400px;
+  margin-left: 15%;
+  margin-top: 10%;
+}
+
+.first-text {
+  border: 1px solid rgba(226, 234, 237, 255);
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgba(226, 234, 237, 255);
+  color: rgba(141, 140, 143, 255);
+}
+
+.main-text {
+  color: rgba(36, 47, 81, 255);
+}
+
+.last-text {
+  color: rgba(141, 140, 143, 255);
+}
+
+.first-text span {
+  float: left;
+  background: rgba(254, 170, 37, 255);
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+
+.left-text .btn {
+  margin-top: 15px;
+}
+
+.demo-link {
+  margin-left: 30px;
+  text-decoration: none;
+}
